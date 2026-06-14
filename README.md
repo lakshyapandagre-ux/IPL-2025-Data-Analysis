@@ -1,208 +1,233 @@
-# 🏏 IPL 2025 Data Analysis
-
-A complete Exploratory Data Analysis (EDA) project on IPL 2025 match data using Python and Data Analysis libraries.
-
----
+#  IPL 2025 Data Analytics Project
 
 ## 📌 Project Overview
 
-This project analyzes IPL 2025 match data to uncover insights about:
+This project focuses on performing an end-to-end Exploratory Data Analysis (EDA) of IPL 2025 match data using Python and data analytics techniques.
 
-- Match-winning teams
-- Toss impact on results
-- Score distributions
-- Top-performing players
-- Venue analysis
-- Batting and bowling performances
-- Correlations between match statistics
+The objective was to uncover patterns, trends, and performance insights related to teams, players, venues, scoring behavior, and match outcomes.
 
-The project demonstrates the complete Data Analysis workflow including data cleaning, statistical analysis, visualization, and business insights generation.
+The project follows a structured analytics workflow including data cleaning, statistical analysis, visualization, correlation analysis, outlier detection, and business insight generation.
 
 ---
 
-## 🚀 Technologies Used
+# 🎯 Business Questions
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Statistics
-- Google Colab
-- GitHub
+This analysis aims to answer the following questions:
 
----
-
-## 📂 Dataset Information
-
-Dataset contains IPL 2025 match-level information including:
-
-- Match ID
-- Venue
-- Teams
-- Toss Winner
-- Toss Decision
-- Match Winner
-- First Innings Score
-- Second Innings Score
-- Top Scorer
-- Player of the Match
-- Best Bowling Figures
+* Which teams performed the best during IPL 2025?
+* Does winning the toss influence match outcomes?
+* Which venues hosted the most matches?
+* What are the scoring patterns across innings?
+* Who were the most impactful players?
+* How are first-innings and second-innings scores related?
+* Are there any unusual scoring outliers?
+* What match factors influence results the most?
 
 ---
 
-## 📊 Analysis Performed
+# 🛠️ Technologies Used
 
-### 1️⃣ Data Cleaning
-
-- Checked missing values
-- Checked duplicate records
-- Verified data types
-
-### 2️⃣ Statistical Analysis
-
-- Mean
-- Median
-- Mode
-- Variance
-- Standard Deviation
-- Quartile Analysis
-
-### 3️⃣ Exploratory Data Analysis
-
-- Match Winners Analysis
-- Toss Winners Analysis
-- Venue Analysis
-- Score Distribution Analysis
-- Top Scorers Analysis
-- Player of the Match Analysis
-- Correlation Analysis
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Statistical Analysis
+* Google Colab
+* GitHub
 
 ---
 
-## 📈 Visualizations
+# 📂 Dataset Information
 
-### Most Successful Teams
+The dataset contains IPL 2025 match-level information including:
 
-![Most Successful Teams](most successful team.png)
-
----
-
-### Toss Winners Analysis
-
-![Toss Winners](toss winner.png)
-
----
-
-### First Innings Score Distribution
-
-![First Innings Distribution](first inn score distrubution.png)
+* Match ID
+* Teams
+* Venue
+* Toss Winner
+* Toss Decision
+* Match Winner
+* First Innings Score
+* Second Innings Score
+* Top Scorer
+* Best Bowling Figures
+* Player of the Match
 
 ---
 
-### Second Innings Score Distribution
+# 📊 Analytics Workflow
 
-![Second Innings Distribution](second inn score distribution.png)
+## 1. Data Understanding
 
----
-
-### Match Result Analysis
-
-![Match Results](match results.png)
+* Dataset Structure Analysis
+* Data Types Inspection
+* Initial Exploration
 
 ---
 
-### Matches by Venue
+## 2. Data Quality Assessment
 
-![Venue Analysis](match by venue.png)
-
----
-
-### Highest Individual Scores
-
-![Highest Score](highest individual score.png)
+* Missing Value Analysis
+* Duplicate Detection
+* Data Consistency Checks
 
 ---
 
-### Player of the Match Analysis
+## 3. Statistical Analysis
 
-![POTM](potm.png)
+Performed:
+
+* Mean
+* Median
+* Mode
+* Variance
+* Standard Deviation
+* Quartile Analysis
+* Distribution Analysis
 
 ---
 
-### Correlation Heatmap
+## 4. Exploratory Data Analysis
 
-![Correlation Heatmap](correlation heatmap.png)
+### Team Performance Analysis
+
+* Most Successful Teams
+* Match Wins Analysis
+* Win Percentage Evaluation
+
+### Toss Analysis
+
+* Toss Winner Analysis
+* Toss Decision Analysis
+* Toss Impact on Match Results
+
+### Venue Analysis
+
+* Matches by Venue
+* Venue Distribution
+* Venue Performance Insights
+
+### Player Performance Analysis
+
+* Top Scorers
+* Player of the Match Analysis
+* Individual Performance Evaluation
+
+### Score Analysis
+
+* First Innings Score Distribution
+* Second Innings Score Distribution
+* Innings Comparison Analysis
 
 ---
+
+## 5. Advanced Analytics
+
+### Correlation Analysis
+
+Analyzed relationships between:
+
+* First Innings Score
+* Second Innings Score
+* Match Outcomes
 
 ### Outlier Detection
 
-![Outlier Detection](outlier detection.png)
-
----
+Identified unusual scoring performances and extreme match results.
 
 ### Regression Analysis
 
-![Regression Analysis](regression analysis.png)
+Studied relationships between innings scores and match performance metrics.
 
 ---
 
-### First Innings vs Second Innings
+# 📈 Visualizations
 
-![Innings Comparison](1st vs 2nd inn.png)
-
----
-
-## 🔍 Key Insights
-
-- Identified the most successful team of IPL 2025.
-- Analyzed the impact of toss decisions on match outcomes.
-- Studied score distributions across matches.
-- Identified players with the highest individual scores.
-- Evaluated venue-wise match distributions.
-- Analyzed relationships between innings scores.
-- Detected outliers in scoring patterns.
-- Explored correlations among important match statistics.
+* Most Successful Teams
+* Toss Winner Analysis
+* Match Result Distribution
+* Matches by Venue
+* Score Distributions
+* Highest Individual Scores
+* Player of the Match Analysis
+* Correlation Heatmap
+* Outlier Detection
+* Regression Analysis
+* First Innings vs Second Innings Comparison
 
 ---
 
-## 💡 Skills Demonstrated
+# 🔍 Key Insights
 
-### Data Analysis
+### Team Performance
 
-- Data Cleaning
-- Data Transformation
-- Data Exploration
-- Statistical Analysis
+* Identified the most successful teams of IPL 2025.
+* Evaluated team dominance throughout the season.
+
+### Toss Impact
+
+* Measured the influence of toss outcomes on match results.
+* Assessed the effectiveness of toss decisions.
+
+### Venue Insights
+
+* Identified venues hosting the highest number of matches.
+* Compared venue-level match distributions.
+
+### Player Insights
+
+* Identified top-scoring players.
+* Analyzed Player of the Match trends.
+
+### Statistical Insights
+
+* Detected scoring outliers.
+* Identified relationships between innings scores.
+* Explored scoring distributions across matches.
+
+---
+
+# 💡 Skills Demonstrated
+
+### Data Analytics
+
+* Data Cleaning
+* Data Validation
+* Exploratory Data Analysis
+* Statistical Analysis
+* Insight Generation
 
 ### Visualization
 
-- Bar Charts
-- Histograms
-- Box Plots
-- Scatter Plots
-- Heatmaps
-- Regression Plots
+* Bar Charts
+* Histograms
+* Box Plots
+* Scatter Plots
+* Heatmaps
+* Regression Plots
 
 ### Python Libraries
 
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
 
 ---
 
-## 🎯 Project Outcome
+# 🚀 Project Outcome
 
-This project helped strengthen my understanding of:
+This project strengthened my understanding of:
 
-- Exploratory Data Analysis (EDA)
-- Statistical Concepts
-- Data Visualization
-- Business Insight Generation
-- Real-world Sports Analytics
+* Exploratory Data Analysis (EDA)
+* Statistical Thinking
+* Sports Analytics
+* Data Visualization
+* Insight Generation
+* Analytical Problem Solving
+
+It also helped build a strong foundation for more advanced analytics projects involving business intelligence, customer analytics, and SQL-based analysis.
 
 ---
 
@@ -214,6 +239,4 @@ Aspiring Data Analyst | Data Science Enthusiast | AIML Learner
 
 GitHub: https://github.com/lakshyapandagre-ux
 
----
-
-⭐ If you found this project useful, feel free to star the repository.
+⭐ If you found this project useful, consider starring the repository.
